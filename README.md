@@ -2,6 +2,7 @@
 
 ### Quer sair do Excel e não sabe por onde começar?
 ## Pergunte-me como!
+`'Sem trabalho de corno'` - Motta, T.
 
 Aqui vamos aprensentar os conceitos do zero, básico do básico mesmo! O único custo que você terá será seu tempo e dedicação. Conte conosco para aprender análise de dados no Python com Pandas!
 
@@ -27,4 +28,4 @@ Como identificar dados faltantes? Devo remover? Devo imputar? E o que fazer com 
 
 ### Episódio 4
 
-Fazendo analogias com SQl vamos apresentar agregações de tabelas com o comando df.groupby e suas diferenciações.
+Fazendo analogias com SQL vamos apresentar agregações de tabelas com o comando df.groupby e suas diferenciações.
