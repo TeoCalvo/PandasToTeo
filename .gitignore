@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+
+*.csv
+*.db
+*.xlsx
+
+.vscode/
+data/*.py
+data/*.sql
