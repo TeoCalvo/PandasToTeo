@@ -9,9 +9,10 @@ Aqui vamos aprensentar os conceitos do zero, básico do básico mesmo! O único 
 | Episódio | Dia | Conteúdo |
 |----------|-----|----------|
 | 1 | 30-06-2020 | Primeiros passos com Pandas |
-| 2 | 02-06-2020 | Transformando e combinando colunas |
+| 2 | 02-07-2020 | Transformando e combinando colunas |
 | 3 | 07-07-2020 | Limpando dados |
 | 4 | 09-07-2020 | Group By e Merge (Join) |
+| 5 | 14-07-2020 | Integrando com Bancos de Dados Relaconais |
 
 ### Episódio 1
 
@@ -29,3 +30,7 @@ Como identificar dados faltantes? Devo remover? Devo imputar? E o que fazer com 
 ### Episódio 4
 
 Fazendo analogias com SQL vamos apresentar agregações de tabelas com o comando df.groupby e suas diferenciações.
+
+### Episódio 5
+
+Ja pensou em integrar seu ambiente Python com os bancos de dados que sua empresa usa? Como diparar queries para o banco de dados executar e retornar o resultado em um Pandas DataFrame? Vamos falar isso por aqui. ;D
