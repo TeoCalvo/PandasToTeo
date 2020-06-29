@@ -6,6 +6,8 @@
 
 Aqui vamos aprensentar os conceitos do zero, básico do básico mesmo! O único custo que você terá será seu tempo e dedicação. Conte conosco para aprender análise de dados no Python com Pandas!
 
+As lives acontecerão no nosso canal ([www.twitch.tv/teomewhy](https://www.twitch.tv/teomewhy)) sempre as 20hrs!
+
 | Episódio | Dia | Conteúdo |
 |----------|-----|----------|
 | 1 | 30-06-2020 | Primeiros passos com Pandas |
