@@ -57,3 +57,9 @@ df_candidatura["nome"][29140] # df[column][index]
 
 # Informações do DataFrame...
 df_candidatura.info()
+
+# Navegando apenas nas linhas
+df_candidatura.loc[29140:29145]
+
+# Para casa..
+# Quantas linhas, colunas tem a base de tb_declaracao_2018.xlsx ?
