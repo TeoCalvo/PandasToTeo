@@ -1,5 +1,7 @@
 import pandas as pd
+import numpy as np
 import os
+
 
 pd.set_option('display.max_columns', 5)
 
@@ -39,4 +41,36 @@ df_candidatura_novo.head()
 
 df_candidatura_novo.columns
 
+# Finarmente arteramo a coluna
 df_candidatura_novo['idade_data_posse'] = df_candidatura_novo['idade_data_posse'].astype(int)
+df_candidatura_novo.dtypes
+
+# Calculando o log da idade?
+df_candidatura_novo['idade_data_posse_log'] = np.log( df_candidatura_novo['idade_data_posse'] )
+
+# Vamos ver como ficou...
+df_candidatura_novo[['idade_data_posse','idade_data_posse_log']].head()
+
+# Inventando moda, isso nao faz sentido, ok?
+df_candidatura_novo['campo_maluco'] = (df_candidatura_novo['idade_data_posse'] + df_candidatura_novo['idade_data_posse_log']) * 2
+df_candidatura_novo[['idade_data_posse','idade_data_posse_log', 'campo_maluco']].head()
+
+# Vamos elaborar mais...
+def pega_primeiro_nome( nome:str ):
+    return nome.lstrip(" ").split(" ")[0]
+
+df_candidatura_novo['primeiro_nome'] = df_candidatura_novo['nome'].apply( pega_primeiro_nome )
+df_candidatura_novo[ ['nome', 'primeiro_nome'] ]
+
+
+# Brincar com email
+""" def pega_provedor(email):
+    return email.rsplit(" ").split("@")[-1]
+"""
+
+df_candidatura_novo['provedor'] = df_candidatura_novo['email'].fillna('').apply( lambda x: x.rstrip(" ").split("@")[-1] )
+
+df_candidatura_novo[ ['email', 'provedor'] ]
+
+
+
