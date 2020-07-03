@@ -15,7 +15,6 @@ dados = {"nome": ['Teo', "Nah", "Code", "Karla"],
 
 df_pessoas = pd.DataFrame( dados ) # tb_pessoa
 
-
 ## Começando a aula...
 
 # Lendo um csv...
