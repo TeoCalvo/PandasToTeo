@@ -12,7 +12,7 @@ As lives acontecerão no nosso canal ([www.twitch.tv/teomewhy](https://www.twitc
 |----------|-----|----------|
 | 1 | 30-06-2020 | Primeiros passos com Pandas |
 | 2 | 02-07-2020 | Transformando e combinando colunas |
-| 3 | 07-07-2020 | Limpando dados |
+| 3 | 07-07-2020 | Limpando e filtrando dados |
 | 4 | 09-07-2020 | Group By e Merge (Join) |
 | 5 | 14-07-2020 | Integrando com Bancos de Dados Relaconais |
 

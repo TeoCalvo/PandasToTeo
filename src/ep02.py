@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import os
 
-
 pd.set_option('display.max_columns', 5)
 
 endereco_programa = os.path.join( os.path.abspath('.'), 'src')
@@ -61,7 +60,6 @@ def pega_primeiro_nome( nome:str ):
 
 df_candidatura_novo['primeiro_nome'] = df_candidatura_novo['nome'].apply( pega_primeiro_nome )
 df_candidatura_novo[ ['nome', 'primeiro_nome'] ]
-
 
 # Brincar com email
 """ def pega_provedor(email):
