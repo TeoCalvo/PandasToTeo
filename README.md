@@ -14,7 +14,7 @@ As lives acontecerão no nosso canal ([www.twitch.tv/teomewhy](https://www.twitc
 | 2 | 02-07-2020 | Transformando e combinando colunas |
 | 3 | 07-07-2020 | Limpando e filtrando dados |
 | 4 | 09-07-2020 | Group By e Merge (Join) |
-| 5 | 14-07-2020 | Integrando com Bancos de Dados Relaconais |
+| 5 | 14-07-2020 | Integrando com Bancos de Dados Relacionais |
 
 ### Episódio 1
 
